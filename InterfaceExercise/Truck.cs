@@ -10,7 +10,7 @@ namespace InterfaceExercise
     {
         public int NumberOfWheels { get; set; } = 4;
         public int Speed { get; set; } = 260;
-        public bool HasEngine { get; set; } = true;  // Updated from string to bool
+        public bool HasEngine { get; set; } = true; 
         public bool IsRunning { get; set; } = true;
         public string Logo { get; set; } = "KIA";
         public string Name { get; set; } = "Kia Rio";
@@ -22,7 +22,7 @@ namespace InterfaceExercise
         {
             if (HasFourWheelDrivers)
             {
-                Console.WriteLine($"4 wheel drive {GetType().Name} Now driving Forward...");
+                Console.WriteLine($"4 wheels drive {GetType().Name} Now driving Forward...");
             }
             else
             {

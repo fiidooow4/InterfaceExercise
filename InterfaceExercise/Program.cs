@@ -10,8 +10,9 @@ namespace InterfaceExercise
         {
             var car = new Car();
             var truck = new Truck();
+            var suv = new Suv();    
 
-            var vehicles = new List<IVehicle> { car, truck };
+            var vehicles = new List<IVehicle> { car, truck, suv };
 
             foreach (var vehicle in vehicles)
             {
